@@ -147,6 +147,10 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+
+# Files Article
+backend/data/articles.json
+
 ### Node Patch ###
 # Serverless Webpack directories
 .webpack/
