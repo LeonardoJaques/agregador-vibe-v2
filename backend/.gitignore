@@ -17,8 +17,11 @@
     .env
     .env.*.local
     .env.local
+    
+    # Arquivos de Banco de Dados
+    articles.json
     backend/data/articles.json
-
+    backend/data/articles.json.map
     # Arquivos de Build (se aplicável)
     dist/
     build/
