@@ -149,8 +149,7 @@ dist
 
 
 # Files Article
-backend/data/articles.*
-
+/backend/data/articles.json
 ### Node Patch ###
 # Serverless Webpack directories
 .webpack/
