@@ -1,46 +1,32 @@
 [
+  
   {
     "id": "default-1",
-    "name": "G1 Tecnologia",
-    "url": "https://g1.globo.com/rss/g1/tecnologia/"
-  },
-  {
-    "id": "default-2",
-    "name": "Tecnoblog",
-    "url": "https://tecnoblog.net/feed/"
-  },
-  {
-    "id": "default-4",
-    "name": "Canaltech",
-    "url": "https://canaltech.com.br/rss/"
-  },
-  {
-    "id": "default-5",
     "name": "UOL Tecnologia",
     "url": "https://www.uol.com.br/tilt/rss/tecnologia/"
   },
   {
-    "id": "default-6",
+    "id": "default-2",
     "name": "TechCrunch",
     "url": "https://feeds.feedburner.com/TechCrunch/"
   },
   {
-    "id": "default-7",
+    "id": "default-3",
     "name": "The Verge",
     "url": "https://www.theverge.com/rss/index.xml"
   },
   {
-    "id": "default-8",
+    "id": "default-4",
     "name": "Engadget",
     "url": "https://www.engadget.com/rss.xml"
   },
   {
-    "id": "default-9",
+    "id": "default-5",
     "name": "Wired",
     "url": "https://www.wired.com/feed/"
   },
   {
-    "id": "default-10",
+    "id": "default-5",
     "name": "Mashable",
     "url": "https://mashable.com/feed/"
   }

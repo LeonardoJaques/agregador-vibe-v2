@@ -4,10 +4,13 @@ import express from 'express'; // Importar apenas uma vez
 import cors from 'cors';
 import fs from 'fs/promises'; // Usar fs.promises diretamente
 import path from 'path';
+import { fileURLToPath } from 'url';
 // import { fileURLToPath } from 'url'; // Para obter __dirname em ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// Carregar variáveis de ambiente BEM NO INÍCIO
-dotenv.config();
+// Load .env from the project root (one level up)
+dotenv.config({ path: path.join(__dirname, '../.env') });
 
 // Importar Rotas
 import articleRoutes from './infrastructure/web/articleRoutes.js';
